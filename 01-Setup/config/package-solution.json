@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "01-setup-client-side-solution",
+    "id": "fe50dcf5-5a36-461b-b678-29fdf6341845",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "01-setup description"
+      },
+      "longDescription": {
+        "default": "01-setup description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "01-setup Feature",
+        "description": "The feature that activates elements of the 01-setup solution.",
+        "id": "f55fec83-65a3-4f92-97b4-2c8fb46bb9df",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/01-setup.sppkg"
+  }
+}
