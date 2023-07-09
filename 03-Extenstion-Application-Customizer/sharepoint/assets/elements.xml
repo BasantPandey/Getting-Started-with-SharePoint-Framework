@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="GlobalJs"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="789a4dae-fd8b-421f-8338-78194e7a8331"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

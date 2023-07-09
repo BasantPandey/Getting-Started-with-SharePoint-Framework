@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "03-extenstion-application-customizer",
+    "libraryId": "0a62bf68-7be8-4bb3-862d-01f6f53b2f05",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "03-extenstion-application-customizer",
+    "solutionShortDescription": "03-extenstion-application-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

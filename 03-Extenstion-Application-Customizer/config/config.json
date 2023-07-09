@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-js-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/globalJs/GlobalJsApplicationCustomizer.js",
+          "manifest": "./src/extensions/globalJs/GlobalJsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalJsApplicationCustomizerStrings": "lib/extensions/globalJs/loc/{locale}.js"
+  }
+}

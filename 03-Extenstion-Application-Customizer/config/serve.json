@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ywzyj.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "789a4dae-fd8b-421f-8338-78194e7a8331": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "globalJs": {
+      "pageUrl": "https://ywzyj.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "789a4dae-fd8b-421f-8338-78194e7a8331": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
