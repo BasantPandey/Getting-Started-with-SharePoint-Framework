@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "menu-and-context-menu-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/menuAndContextMenu/MenuAndContextMenuCommandSet.js",
+          "manifest": "./src/extensions/menuAndContextMenu/MenuAndContextMenuCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MenuAndContextMenuCommandSetStrings": "lib/extensions/menuAndContextMenu/loc/{locale}.js"
+  }
+}

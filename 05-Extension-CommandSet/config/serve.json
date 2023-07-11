@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ywzyj.sharepoint.com/sites/wcontosoteam/SitePages/Forms/ByAuthor.aspx",
+      "customActions": {
+        "d6bed663-97c0-47c1-b119-4f57ba330554": {
+          "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "menuAndContextMenu": {
+      "pageUrl": "https://ywzyj.sharepoint.com/sites/wcontosoteam/SitePages/Forms/ByAuthor.aspx",
+      "customActions": {
+        "d6bed663-97c0-47c1-b119-4f57ba330554": {
+          "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

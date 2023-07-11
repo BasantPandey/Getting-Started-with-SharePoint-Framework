@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "05-extension-command-set",
+    "libraryId": "b10c7cad-333a-44a9-a3b9-ff063c944e26",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "05-extension-command-set",
+    "solutionShortDescription": "05-extension-command-set description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
