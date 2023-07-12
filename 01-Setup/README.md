@@ -19,7 +19,9 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> 1. Docker
+> 1. WSL
+> 1. Dev Container
 
 ## Solution
 
