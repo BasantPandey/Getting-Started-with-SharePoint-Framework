@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ywzyj.sharepoint.com/sites/wcontosoteam/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "8ff4dc57-1d8d-4c84-bb50-52d0ac0c0808", 
+        "ContentTypeID": "0x01060088900CC4E91DBF47B3864961798693D6",
+        "PageType": 8,
+        "RootFolder": "/sites/wcontosoteam/Lists/blank",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_NewForm": {
+      "pageUrl": "https://ywzyj.sharepoint.com/sites/wcontosoteam/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "8ff4dc57-1d8d-4c84-bb50-52d0ac0c0808",
+        "ContentTypeID": "0x01060088900CC4E91DBF47B3864961798693D6",
+
+        "PageType": 8,
+        "RootFolder": "/sites/wcontosoteam/Lists/blank",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_EditForm": {
+      "pageUrl": "https://ywzyj.sharepoint.com/sites/wcontosoteam/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "8ff4dc57-1d8d-4c84-bb50-52d0ac0c0808",
+        "ContentTypeID": "0x01060088900CC4E91DBF47B3864961798693D6",
+        "PageType": 6,
+        "RootFolder": "/sites/wcontosoteam/Lists/blank",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_ViewForm": {
+      "pageUrl": "https://ywzyj.sharepoint.com/sites/wcontosoteam/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "8ff4dc57-1d8d-4c84-bb50-52d0ac0c0808",
+        "ContentTypeID": "0x01060088900CC4E91DBF47B3864961798693D6",
+        "PageType": 4,
+        "RootFolder": "/sites/wcontosoteam/Lists/blank",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
