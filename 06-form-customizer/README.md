@@ -21,6 +21,10 @@ Short summary on functionality and used technologies.
 
 > Any special pre-requisites?
 
+## youtube
+
+[![alt](<../images/SharePoint%20Framework%20(SPFx)_%20Extensions%20(Field%20Customizers).png>)](https://youtu.be/ar0j29dhVzU)
+
 ## Solution
 
 | Solution    | Author(s)                                               |
