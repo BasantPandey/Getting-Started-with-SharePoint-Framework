@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "08-use-library-componets-client-side-solution",
+    "id": "8d086b8c-7bfe-408b-b4ea-d1a909aa9cff",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "08-use-library-componets description"
+      },
+      "longDescription": {
+        "default": "08-use-library-componets description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "08-use-library-componets Feature",
+        "description": "The feature that activates elements of the 08-use-library-componets solution.",
+        "id": "f9e57ad7-f912-4354-9d7e-ea192304b55f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/08-use-library-componets.sppkg"
+  }
+}
