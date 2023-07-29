@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "09-adaptive-card-extension",
+    "libraryId": "bfc235d9-2322-4697-98f8-27e3f0f4a8e4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "09-adaptive-card-extension",
+    "solutionShortDescription": "09-adaptive-card-extension description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Image"
+  }
+}

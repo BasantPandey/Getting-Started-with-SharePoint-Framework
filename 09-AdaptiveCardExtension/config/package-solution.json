@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "09-adaptive-card-extension-client-side-solution",
+    "id": "bfc235d9-2322-4697-98f8-27e3f0f4a8e4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "09-adaptive-card-extension description"
+      },
+      "longDescription": {
+        "default": "09-adaptive-card-extension description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "09-adaptive-card-extension Feature",
+        "description": "The feature that activates elements of the 09-adaptive-card-extension solution.",
+        "id": "a6494780-0f82-4404-a51f-bb8a9d027761",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/09-adaptive-card-extension.sppkg"
+  }
+}
